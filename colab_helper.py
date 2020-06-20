@@ -1,3 +1,4 @@
+import pandas as pd
 def worksheet_to_df(worksheet, data_inds):
   df = worksheet.get_all_values()
   df = pd.DataFrame(df)
